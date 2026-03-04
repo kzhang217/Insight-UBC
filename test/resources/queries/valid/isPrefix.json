@@ -1,0 +1,176 @@
+{
+	"title": "IS prefix wildcard",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "intr sf*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_id"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		},
+		{
+			"sections_title": "intr sftwr eng",
+			"sections_id": "310"
+		}
+	]
+}

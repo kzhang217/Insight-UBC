@@ -1,0 +1,26 @@
+{
+	"title": "contradictEQ_GT",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"EQ": {
+						"sections_year": 2015
+					}
+				},
+				{
+					"GT": {
+						"sections_year": 2020
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

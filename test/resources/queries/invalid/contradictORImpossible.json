@@ -1,0 +1,26 @@
+{
+	"title": "contradictORImpossible",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"GT": {
+						"sections_avg": 200
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": -50
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

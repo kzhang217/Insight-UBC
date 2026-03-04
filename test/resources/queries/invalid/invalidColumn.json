@@ -1,0 +1,11 @@
+{
+	"title": "COLUMNS invalid",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": ["sections_dept", "100"]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

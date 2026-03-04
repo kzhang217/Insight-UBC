@@ -1,0 +1,159 @@
+{
+	"title": "IS contains wildcard",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*comp hard*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_id"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		},
+		{
+			"sections_title": "comp hard&os",
+			"sections_id": "313"
+		}
+	]
+}

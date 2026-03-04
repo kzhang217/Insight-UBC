@@ -1,0 +1,26 @@
+{
+	"title": "invalidContradict",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"sections_avg": 60
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 50
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

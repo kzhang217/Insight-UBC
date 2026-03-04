@@ -1,0 +1,1025 @@
+{
+	"title": "complex",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 85
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "cpsc*"
+							}
+						}
+					]
+				},
+				{
+					"AND": [
+						{
+							"LT": {
+								"sections_avg": 50
+							}
+						},
+						{
+							"IS": {
+								"sections_title": "*intro*"
+							}
+						},
+						{
+							"EQ": {
+								"sections_year": 2015
+							}
+						}
+					]
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_title",
+				"sections_year",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_year": 2014,
+			"sections_avg": 85.11
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptn, progrmng",
+			"sections_year": 2011,
+			"sections_avg": 85.46
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "sftwr constructn",
+			"sections_year": 2014,
+			"sections_avg": 86.15
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "basic alg&data",
+			"sections_year": 2013,
+			"sections_avg": 86.47
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "basic alg&data",
+			"sections_year": 1900,
+			"sections_avg": 86.47
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "basic alg&data",
+			"sections_year": 2014,
+			"sections_avg": 85.87
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "basic alg&data",
+			"sections_year": 1900,
+			"sections_avg": 85.87
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptng life sci",
+			"sections_year": 2011,
+			"sections_avg": 86.34
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptng life sci",
+			"sections_year": 1900,
+			"sections_avg": 86.34
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptng life sci",
+			"sections_year": 2010,
+			"sections_avg": 88
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comptng life sci",
+			"sections_year": 1900,
+			"sections_avg": 88
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intr rel databse",
+			"sections_year": 2013,
+			"sections_avg": 85.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intr rel databse",
+			"sections_year": 1900,
+			"sections_avg": 85.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "func & logic prg",
+			"sections_year": 2009,
+			"sections_avg": 85.13
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "func & logic prg",
+			"sections_year": 1900,
+			"sections_avg": 85.13
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 2014,
+			"sections_avg": 85.72
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 1900,
+			"sections_avg": 85.72
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 2013,
+			"sections_avg": 85.59
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 1900,
+			"sections_avg": 85.59
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 2011,
+			"sections_avg": 88.39
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 1900,
+			"sections_avg": 88.39
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 2015,
+			"sections_avg": 87.93
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 1900,
+			"sections_avg": 87.93
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 2007,
+			"sections_avg": 86.12
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "softwr eng proj",
+			"sections_year": 1900,
+			"sections_avg": 86.12
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "compiler constrc",
+			"sections_year": 2015,
+			"sections_avg": 86
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "compiler constrc",
+			"sections_year": 1900,
+			"sections_avg": 86
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "parallel comput",
+			"sections_year": 2015,
+			"sections_avg": 86.04
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "parallel comput",
+			"sections_year": 1900,
+			"sections_avg": 86.04
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "alg in bioin",
+			"sections_year": 2011,
+			"sections_avg": 91.25
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "alg in bioin",
+			"sections_year": 1900,
+			"sections_avg": 91.25
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2009,
+			"sections_avg": 92.63
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 92.63
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2013,
+			"sections_avg": 93.38
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 93.38
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2008,
+			"sections_avg": 87.83
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 87.83
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2011,
+			"sections_avg": 93.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 93.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2015,
+			"sections_avg": 90.25
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 90.25
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2010,
+			"sections_avg": 88.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 88.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2012,
+			"sections_avg": 92.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 1900,
+			"sections_avg": 92.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "honours thesis",
+			"sections_year": 2007,
+			"sections_avg": 85.8
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2014,
+			"sections_avg": 92.4
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 1900,
+			"sections_avg": 92.4
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2009,
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 1900,
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2013,
+			"sections_avg": 90.6
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 1900,
+			"sections_avg": 90.6
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2008,
+			"sections_avg": 90.27
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2008,
+			"sections_avg": 89.86
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 1900,
+			"sections_avg": 90.14
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2011,
+			"sections_avg": 89.64
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 1900,
+			"sections_avg": 89.64
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 2010,
+			"sections_avg": 92
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "student seminar",
+			"sections_year": 1900,
+			"sections_avg": 92
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 2013,
+			"sections_avg": 86.33
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 1900,
+			"sections_avg": 86.33
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 2008,
+			"sections_avg": 85.78
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 1900,
+			"sections_avg": 85.78
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 2010,
+			"sections_avg": 86.13
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 1900,
+			"sections_avg": 86.13
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 2012,
+			"sections_avg": 86.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "fund alg dsgn&an",
+			"sections_year": 1900,
+			"sections_avg": 86.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 2009,
+			"sections_avg": 92.43
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 1900,
+			"sections_avg": 92.43
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 2010,
+			"sections_avg": 91
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 1900,
+			"sections_avg": 91
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 2012,
+			"sections_avg": 92.75
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 1900,
+			"sections_avg": 92.75
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 2007,
+			"sections_avg": 94
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "thry of automata",
+			"sections_year": 1900,
+			"sections_avg": 94
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 1",
+			"sections_year": 2011,
+			"sections_avg": 86.2
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 1",
+			"sections_year": 1900,
+			"sections_avg": 86.2
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 2009,
+			"sections_avg": 89.1
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 1900,
+			"sections_avg": 89.1
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 2015,
+			"sections_avg": 89.47
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 1900,
+			"sections_avg": 89.47
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 2010,
+			"sections_avg": 87.36
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 1900,
+			"sections_avg": 87.36
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 2012,
+			"sections_avg": 88.82
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 1900,
+			"sections_avg": 88.82
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 2007,
+			"sections_avg": 94.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "computl ling 1",
+			"sections_year": 1900,
+			"sections_avg": 94.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_year": 2013,
+			"sections_avg": 91.79
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_year": 1900,
+			"sections_avg": 91.79
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_year": 2011,
+			"sections_avg": 89.17
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_year": 1900,
+			"sections_avg": 89.17
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_year": 2015,
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "software eng",
+			"sections_year": 1900,
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_year": 2013,
+			"sections_avg": 88
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_year": 1900,
+			"sections_avg": 88
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_year": 2015,
+			"sections_avg": 87.2
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_year": 1900,
+			"sections_avg": 87.2
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_year": 2012,
+			"sections_avg": 85.9
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "prog lang princ",
+			"sections_year": 1900,
+			"sections_avg": 85.9
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 2014,
+			"sections_avg": 87.64
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 1900,
+			"sections_avg": 87.64
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 2013,
+			"sections_avg": 86.71
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 1900,
+			"sections_avg": 86.71
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 2010,
+			"sections_avg": 89.09
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 1900,
+			"sections_avg": 89.09
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 2012,
+			"sections_avg": 87.58
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 1900,
+			"sections_avg": 87.58
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 2007,
+			"sections_avg": 88.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "intgrt sys desgn",
+			"sections_year": 1900,
+			"sections_avg": 88.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "para algs & arch",
+			"sections_year": 2009,
+			"sections_avg": 85.65
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "para algs & arch",
+			"sections_year": 1900,
+			"sections_avg": 85.65
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "para algs & arch",
+			"sections_year": 2008,
+			"sections_avg": 87
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "para algs & arch",
+			"sections_year": 1900,
+			"sections_avg": 87
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "para algs & arch",
+			"sections_year": 2010,
+			"sections_avg": 87.78
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "para algs & arch",
+			"sections_year": 1900,
+			"sections_avg": 87.78
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 2",
+			"sections_year": 2012,
+			"sections_avg": 90.71
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "artif intell 2",
+			"sections_year": 1900,
+			"sections_avg": 90.71
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp comm protcl",
+			"sections_year": 2015,
+			"sections_avg": 91.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp comm protcl",
+			"sections_year": 1900,
+			"sections_avg": 91.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp comm protcl",
+			"sections_year": 2007,
+			"sections_avg": 90.11
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "comp comm protcl",
+			"sections_year": 1900,
+			"sections_avg": 90.11
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 2014,
+			"sections_avg": 91.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 1900,
+			"sections_avg": 91.22
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 2011,
+			"sections_avg": 87.61
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 1900,
+			"sections_avg": 87.61
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 2015,
+			"sections_avg": 90.53
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 1900,
+			"sections_avg": 90.53
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 2012,
+			"sections_avg": 86.06
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "machine learn i",
+			"sections_year": 1900,
+			"sections_avg": 86.06
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 2009,
+			"sections_avg": 85.35
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 1900,
+			"sections_avg": 85.35
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 2013,
+			"sections_avg": 86.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 1900,
+			"sections_avg": 86.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 2011,
+			"sections_avg": 87.67
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 1900,
+			"sections_avg": 87.67
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 2010,
+			"sections_avg": 89.75
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "phy user intfc",
+			"sections_year": 1900,
+			"sections_avg": 89.75
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 2014,
+			"sections_avg": 85.27
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 1900,
+			"sections_avg": 85.27
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 2013,
+			"sections_avg": 85.17
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 1900,
+			"sections_avg": 85.17
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 2008,
+			"sections_avg": 88
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 1900,
+			"sections_avg": 88
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 2012,
+			"sections_avg": 86.71
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "hmn-cmpt intract",
+			"sections_year": 1900,
+			"sections_avg": 86.71
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "info visualizatn",
+			"sections_year": 2014,
+			"sections_avg": 88.47
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "info visualizatn",
+			"sections_year": 1900,
+			"sections_avg": 88.47
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "info visualizatn",
+			"sections_year": 2015,
+			"sections_avg": 88.68
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "info visualizatn",
+			"sections_year": 1900,
+			"sections_avg": 88.68
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 2014,
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 95
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 86.5
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 86
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 2013,
+			"sections_avg": 87
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 87
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 2011,
+			"sections_avg": 89
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 86
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 2015,
+			"sections_avg": 85.75
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 85.6
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_title": "m.sc major essay",
+			"sections_year": 1900,
+			"sections_avg": 85.25
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_year": 2015,
+			"sections_avg": 47.29
+		},
+		{
+			"sections_dept": "lled",
+			"sections_title": "intro acad writ",
+			"sections_year": 2015,
+			"sections_avg": 47.82
+		}
+	]
+}

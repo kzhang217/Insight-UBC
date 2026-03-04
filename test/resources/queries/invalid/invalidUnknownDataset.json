@@ -1,0 +1,17 @@
+{
+	"title": "invalidUnknownDataset",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"unknown_avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"unknown_avg"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

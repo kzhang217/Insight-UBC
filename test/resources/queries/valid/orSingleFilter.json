@@ -1,0 +1,58 @@
+{
+	"title": "orSingleFilter",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"LT": {
+						"sections_avg": 40
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 4
+		},
+		{
+			"sections_avg": 4
+		},
+		{
+			"sections_avg": 33
+		},
+		{
+			"sections_avg": 39.03
+		},
+		{
+			"sections_avg": 39.03
+		},
+		{
+			"sections_avg": 4.5
+		},
+		{
+			"sections_avg": 0
+		},
+		{
+			"sections_avg": 34
+		},
+		{
+			"sections_avg": 0
+		},
+		{
+			"sections_avg": 0
+		},
+		{
+			"sections_avg": 33.2
+		},
+		{
+			"sections_avg": 1
+		}
+	]
+}

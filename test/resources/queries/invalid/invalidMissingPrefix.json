@@ -1,0 +1,17 @@
+{
+	"title": "invalidMissingPrefix",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"avg": 90
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"avg"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

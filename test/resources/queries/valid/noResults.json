@@ -1,0 +1,27 @@
+{
+	"title": "noResults",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"sections_avg": 150
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "zzzzz*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

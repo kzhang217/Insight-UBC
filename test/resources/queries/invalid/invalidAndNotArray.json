@@ -1,0 +1,19 @@
+{
+	"title": "invalidAndNotArray",
+	"input": {
+		"WHERE": {
+			"AND": {
+				"GT": {
+					"sections_avg": 90
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}
