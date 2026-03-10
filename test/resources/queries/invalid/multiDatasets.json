@@ -1,0 +1,27 @@
+{
+	"title": "Multiple datasets",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"GT": {
+						"sections_avg": 100
+					}
+				},
+				{
+					"IS": {
+						"other_dept": "MATH"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg",
+				"other_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

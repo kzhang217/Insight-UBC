@@ -1,0 +1,284 @@
+{
+	"title": "IS suffix wildcard",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_title": "*dsgn"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_id"
+			],
+			"ORDER": "sections_title"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "bio prc prd dsgn",
+			"sections_id": "453"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "chm prc prd dsgn",
+			"sections_id": "454"
+		},
+		{
+			"sections_title": "dig syst dsgn",
+			"sections_id": "311"
+		},
+		{
+			"sections_title": "dig syst dsgn",
+			"sections_id": "311"
+		},
+		{
+			"sections_title": "dig syst dsgn",
+			"sections_id": "311"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "enviro facl dsgn",
+			"sections_id": "491"
+		},
+		{
+			"sections_title": "mcro syst dsgn",
+			"sections_id": "412"
+		},
+		{
+			"sections_title": "mcro syst dsgn",
+			"sections_id": "412"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "power elec dsgn",
+			"sections_id": "550"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "steel&timbr dsgn",
+			"sections_id": "331"
+		},
+		{
+			"sections_title": "wood strctr dsgn",
+			"sections_id": "476"
+		},
+		{
+			"sections_title": "wood strctr dsgn",
+			"sections_id": "476"
+		}
+	]
+}

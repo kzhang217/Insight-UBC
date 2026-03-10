@@ -1,0 +1,17 @@
+{
+	"title": "invalidISMultipleStars",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_dept": "*math*cs*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

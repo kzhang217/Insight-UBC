@@ -1,0 +1,17 @@
+{
+	"title": "invalidGTOnStringField",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_dept": 95
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

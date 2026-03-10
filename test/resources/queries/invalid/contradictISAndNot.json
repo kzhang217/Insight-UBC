@@ -1,0 +1,28 @@
+{
+	"title": "contradictISAndNot",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_title": "intro to cs"
+					}
+				},
+				{
+					"NOT": {
+						"IS": {
+							"sections_title": "intro to cs"
+						}
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}
